@@ -23,7 +23,6 @@ class DownloadFile {
 
     @Then("I should receive byteArray data")
     fun i_should_receive_byte_array_data() {
-        // Write code here that turns the phrase above into concrete actions
        Assert.assertNotNull(res)
     }
 
